@@ -1,0 +1,13 @@
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;  
+
+public class AppTest extends TestCase {
+
+{
+	@Test
+	public void test1() {
+	App  app=new App();
+	assertEquals(true, app.thisCausesFindBugWarnings("abc"));
+}
+
+}
